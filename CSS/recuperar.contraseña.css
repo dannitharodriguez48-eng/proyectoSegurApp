@@ -1,0 +1,217 @@
+/* =================================
+   CONFIGURACIÓN GENERAL
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f4f8;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* =================================
+   CONTENEDOR
+================================= */
+
+.contenedor-recuperacion {
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* =================================
+   TARJETA
+================================= */
+
+.tarjeta-recuperacion {
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+
+    background-color: #ffffff;
+
+    padding: 40px;
+
+    border-radius: 12px;
+
+    border: 1px solid #e1e5ea;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =================================
+   LOGO
+================================= */
+
+.logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo img {
+    width: 180px;
+    height: auto;
+}
+
+/* =================================
+   TÍTULO
+================================= */
+
+h1 {
+    text-align: center;
+
+    color: #172b4d;
+
+    font-size: 25px;
+
+    margin-bottom: 15px;
+}
+
+
+/* =================================
+   DESCRIPCIÓN
+================================= */
+
+.descripcion {
+    text-align: center;
+
+    color: #667085;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+
+    margin-bottom: 30px;
+}
+
+
+/* =================================
+   CAMPO
+================================= */
+
+.grupo-campo {
+    display: flex;
+
+    flex-direction: column;
+
+    margin-bottom: 25px;
+}
+
+.grupo-campo label {
+    color: #344054;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+}
+
+.grupo-campo input {
+    width: 100%;
+
+    padding: 13px 14px;
+
+    border: 1px solid #d0d5dd;
+
+    border-radius: 7px;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+.grupo-campo input:focus {
+    border-color: #d4a72c;
+
+    box-shadow: 0 0 0 3px rgba(212, 167, 44, 0.15);
+}
+
+.grupo-campo input::placeholder {
+    color: #98a2b3;
+}
+
+
+/* =================================
+   BOTÓN
+================================= */
+
+.boton-enviar {
+    width: 100%;
+
+    padding: 13px;
+
+    background-color: #172b4d;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 7px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.boton-enviar:hover {
+    background-color: #243b64;
+}
+
+
+/* =================================
+   VOLVER
+================================= */
+
+.volver {
+    display: block;
+
+    text-align: center;
+
+    margin-top: 25px;
+
+    color: #172b4d;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: bold;
+}
+
+.volver:hover {
+    text-decoration: underline;
+}
+
+
+/* =================================
+   RESPONSIVE
+================================= */
+
+@media (max-width: 500px) {
+
+    .tarjeta-recuperacion {
+        padding: 30px 20px;
+    }
+
+    .logo {
+        font-size: 27px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
