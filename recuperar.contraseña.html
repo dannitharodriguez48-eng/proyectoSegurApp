@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Recuperar contraseña - SegurApp</title>
+
+    <link rel="stylesheet" href="CSS/recuperar.contraseña.css" />
+  </head>
+
+  <body>
+    <!-- =================================
+         CONTENEDOR PRINCIPAL
+    ================================== -->
+
+    <main class="contenedor-recuperacion">
+      <section class="tarjeta-recuperacion">
+        <!-- LOGO -->
+
+        <div class="logo">
+          <img src="IMG/logoSegurApp.png" alt="Logo de SegurApp" />
+        </div>
+
+        <!-- TÍTULO -->
+
+        <h1>Recuperar contraseña</h1>
+
+        <!-- DESCRIPCIÓN -->
+
+        <p class="descripcion">
+          Ingresa tu correo electrónico y te enviaremos un enlace para
+          restablecer tu contraseña.
+        </p>
+
+        <!-- FORMULARIO -->
+
+        <form>
+          <div class="grupo-campo">
+            <label for="correo"> Correo electrónico </label>
+
+            <input
+              type="email"
+              id="correo"
+              name="correo"
+              placeholder="Ingresa tu correo electrónico"
+              required
+            />
+          </div>
+
+          <!-- BOTÓN -->
+
+          <a href="#mensaje-enviado" class="boton-enviar"> Enviar enlace </a>
+        </form>
+
+        <!-- VOLVER AL LOGIN -->
+
+        <a href="proyecto.html" class="volver">
+          ← Volver al inicio de sesión
+        </a>
+      </section>
+    </main>
+
+    <!-- =================================
+         VENTANA DE CONFIRMACIÓN
+    ================================== -->
+
+    <div id="mensaje-enviado" class="fondo-modal">
+      <div class="modal">
+        <!-- ICONO DE CONFIRMACIÓN -->
+
+        <div class="icono-exito">✓</div>
+
+        <!-- TÍTULO -->
+
+        <h2>¡Email enviado!</h2>
+
+        <!-- MENSAJE -->
+
+        <p>Se ha enviado un enlace de recuperación a tu correo electrónico.</p>
+
+        <p>Por favor revisa tu bandeja de entrada (y spam).</p>
+
+        <p>El enlace expira en 1 hora.</p>
+
+        <!-- BOTÓN OK -->
+
+        <a href="#" class="boton-ok"> OK </a>
+      </div>
+    </div>
+  </body>
+</html>
