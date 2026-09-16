@@ -1,63 +1,103 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SegurApp-Login</title>
-    <link rel="stylesheet" href="proyecto.css" />
-  </head>
-  <body>
-    <main class="Login-contenedor">
-      <!-- panel izquierdo-->
-      <section class="Login-img">
-        <img src="imagen-login.jpeg" alt="SegurApp" />
-      </section>
-      <!--panel derecho-->
-      <section class="login-form">
-        <!-- Logo -->
-        <div class="logo-contenedor">
-          <img src="img-SegurApp.jpeg" alt="Logo SegurApp" />
-        </div>
-      </section>
-      <!-- Titulo -->
-      <h1>Ingreso al sistema</h1>
-      <!-- Formulario-->
-      <form>
-        <!--Correo-->
-        <div class="form-group">
-          <label for="correo">Correo Electronico</label>
-          <input
-            type="email"
-            id="correo"
-            name="correo"
-            placeholder="@gmail.com"
-            required
-          />
-        </div>
-        <!--Contraseña-->
-        <div class="form-group">
-            <label for="contraseña">Contraseña</label>
-            <input type="password"
-            id="password"
-            name="contraseña"
-            placeholder="************"
-            required
-            >
-            
-        </div>
-        <!--Recuperar contraseña-->
-        <div class="forgot password">
-            <a href="#">¿Olvidaste tu contraseña?</a>
-        </div>
-        <!--Boton-->
-        <button type="submit">
-            Entrar
-        </button>
-      </form>
-      <!--volver-->
-      <a href="#" class="back-link">
-        Volver
-      </a>
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SegurApp - Ingreso</title>
+
+    <link rel="stylesheet" href="CSS/proyecto.css">
+</head>
+
+<body>
+
+    <main class="login-container">
+
+        <!-- Panel izquierdo -->
+        <section class="login-banner">
+
+            <img src="imagen-login.jpeg" alt="SegurApp">
+
+        </section>
+
+
+        <!-- Panel derecho -->
+        <section class="login-form">
+
+            <!-- Logo -->
+            <div class="logo-contenedor">
+                <img src="img-SegurApp.jpeg" alt="Logo de SegurApp">
+            </div>
+
+
+            <!-- Título -->
+            <h1>Ingreso al Sistema</h1>
+
+
+            <!-- Formulario -->
+            <form>
+
+                <!-- Correo -->
+                <div class="grupo-formulario">
+
+                    <label for="correo">Correo Electrónico</label>
+
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="segurapp@gmail.com"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Contraseña -->
+                <div class="grupo-formulario">
+
+                    <label for="contrasena">Contraseña</label>
+
+                    <input
+                        type="password"
+                        id="contrasena"
+                        name="contrasena"
+                        placeholder="********"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Recuperar contraseña -->
+                <div class="olvidar-contraseña">
+
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+
+                </div>
+
+
+                <!-- Botón -->
+                 <div class="boton-entrar">
+                <button type="submit">
+                    Entrar
+                </button>
+                
+
+            </form>
+
+
+            <!-- Volver -->
+            <a href="#" class="boton-volver">
+                 Volver
+            </a>
+
+        </section>
+
     </main>
-  </body>
+
+</body>
+
 </html>
