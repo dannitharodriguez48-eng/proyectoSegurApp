@@ -1,6 +1,4 @@
-/* ================================
-   CONFIGURACIÓN GENERAL
-================================ */
+/* CONFIGURACIÓN GENERAL*/
 
 * {
   margin: 0;
@@ -16,9 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-} /* ================================
-   CONTENEDOR PRINCIPAL
-================================ */
+} /*  CONTENEDOR PRINCIPAL */
 
 .login-container {
   width: 1100px;
@@ -33,9 +29,7 @@ body {
   overflow: hidden;
 
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-} /* ================================
-   PANEL IZQUIERDO
-================================ */
+} /* PANEL IZQUIERDO */
 
 .login-banner {
   width: 55%;
@@ -50,9 +44,7 @@ body {
   width: 100%;
   height: 80%;
   object-fit: cover;
-} /* ================================
-   PANEL DEL FORMULARIO
-================================ */
+} /* PANEL DEL FORMULARIO */
 
 .login-form {
   width: 45%;
@@ -63,9 +55,7 @@ body {
   flex-direction: column;
 
   background-color: #ffffff;
-} /* ================================
-   LOGO
-================================ */
+} /* LOGO*/
 
 .logo-contenedor {
   display: flex;
@@ -77,9 +67,7 @@ body {
 .logo-contenedor img {
   width: 190px;
   max-width: 100%;
-} /* ================================
-   TITULO
-================================ */
+} /* TITULO */
 
 .login-form h1 {
   text-align: center;
