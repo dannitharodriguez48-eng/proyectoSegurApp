@@ -38,13 +38,14 @@ body {
 ================================ */
 
 .login-banner {
-  width: 55%;
+  width: 58%;
 
   background-color: #06245c;
 
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 .login-banner img {
   width: 100%;
@@ -55,9 +56,9 @@ body {
 ================================ */
 
 .login-form {
-  width: 45%;
+  width: 42%;
 
-  padding: 35px 30px;
+  padding: 35px 35px;
 
   display: flex;
   flex-direction: column;
@@ -77,6 +78,7 @@ body {
 .logo-contenedor img {
   width: 190px;
   max-width: 100%;
+  display: block;
 } /* ================================
    TITULO
 ================================ */
@@ -100,7 +102,7 @@ body {
 }
 .grupo-formulario input {
   width: 100%;
-  height: 32px;
+  height: 36px;
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -110,8 +112,13 @@ body {
   text-align: right;
   margin-bottom: 10px;
 }
-.olvidar-contraseña a {
+.olvdar-contrasieña a {
   color: #0556ee;
+}
+.olvidar-contraseña a::before {
+    content: "⚿ ";
+    color: #0556ee;
+    font-weight: bold;
 }
 .boton-entrar {
   margin-bottom: 11px;
@@ -121,12 +128,15 @@ body {
   width: 100%;
   background-color: #123574;
   color: white;
-  height: 32px;
+  height: 40px;
   border-radius: 5px;
   border: none;
 }
 .boton-volver {
   color: #0556ee;
+}
+.boton-volver::before {
+    content: "← ";
 }
 /*diseño responsive 
   tablets y celulares*/
