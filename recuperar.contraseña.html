@@ -12,19 +12,35 @@
 
 <body>
 
+    <!-- =================================
+         CONTENEDOR PRINCIPAL
+    ================================== -->
+
     <main class="contenedor-recuperacion">
 
         <section class="tarjeta-recuperacion">
 
+            <!-- LOGO -->
+
             <div class="logo">
-    <img src="IMGS/logoSegurApp.png" alt="Logo de SegurApp">
-</div>
+                <img src="IMGS/logoSegurApp.png" alt="Logo de SegurApp">
+            </div>
+
+
+            <!-- TÍTULO -->
+
             <h1>Recuperar contraseña</h1>
+
+
+            <!-- DESCRIPCIÓN -->
 
             <p class="descripcion">
                 Ingresa tu correo electrónico y te enviaremos
                 un enlace para restablecer tu contraseña.
             </p>
+
+
+            <!-- FORMULARIO -->
 
             <form>
 
@@ -44,11 +60,17 @@
 
                 </div>
 
-                <button type="submit" class="boton-enviar">
+
+                <!-- BOTÓN -->
+
+                <a href="#mensaje-enviado" class="boton-enviar">
                     Enviar enlace
-                </button>
+                </a>
 
             </form>
+
+
+            <!-- VOLVER AL LOGIN -->
 
             <a href="proyecto.html" class="volver">
                 ← Volver al inicio de sesión
@@ -57,6 +79,52 @@
         </section>
 
     </main>
+
+
+    <!-- =================================
+         VENTANA DE CONFIRMACIÓN
+    ================================== -->
+
+    <div id="mensaje-enviado" class="fondo-modal">
+
+        <div class="modal">
+
+            <!-- ICONO DE CONFIRMACIÓN -->
+
+            <div class="icono-exito">
+                ✓
+            </div>
+
+
+            <!-- TÍTULO -->
+
+            <h2>¡Email enviado!</h2>
+
+
+            <!-- MENSAJE -->
+
+            <p>
+                Se ha enviado un enlace de recuperación a tu correo electrónico.
+            </p>
+
+            <p>
+                Por favor revisa tu bandeja de entrada (y spam).
+            </p>
+
+            <p>
+                El enlace expira en 1 hora.
+            </p>
+
+
+            <!-- BOTÓN OK -->
+
+            <a href="#" class="boton-ok">
+                OK
+            </a>
+
+        </div>
+
+    </div>
 
 </body>
 
